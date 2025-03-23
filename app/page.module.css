@@ -1,0 +1,17 @@
+@reference "tailwindcss/theme.css";
+
+.root {
+  @apply grid grid-cols-[25vw_1fr];
+}
+
+.card {
+  @apply min-h-[100vh] grid grid-rows-[auto_1fr_auto];
+}
+
+.list {
+  @apply grid grid-cols-2 gap-3;
+}
+
+.preview {
+
+}
